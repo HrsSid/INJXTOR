@@ -5,3 +5,20 @@
   <span>Inject text into images (BETA)</span>
   <br>
 </p>
+
+# Requirements
+- A windows or linux operating system
+- Python 3.10 (later versions of python might not be compatible)([Download Python](https://www.python.org/downloads/))
+- `python3 requirements.py`, run the `requirements.py` file
+
+# Instalation
+```
+# Install the tool on your system
+git clone https://github.com/HrsSid/INJXTOR
+
+# Navigate to the tool directory
+cd INJXTOR
+
+# Enter the tool's UI
+python3 INJXTOR.py
+```
