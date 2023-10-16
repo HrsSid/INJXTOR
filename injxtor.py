@@ -97,18 +97,20 @@ while True:
                 parameters = command.split(" ")
 
                 image = parameters[0]
-                text = " ".join(parameters[1:])
+                text = str(" ".join(parameters[1:])).removeprefix("\"").removesuffix("\"")
                 
-                ImageTextInjectorAL(image, text).encode()
+                ImageTextInjectorAL(image).encode(text)
+                print(f"{titlePrefix}Injected text into {image}:\n{infoPrefix}Text: \"{text}\"")
             elif command.startswith("decode"):
                 command = command.removeprefix("decode ")
                 parameters = command
                 
-                image = parameters[0]
-                text = ImageTextInjectorAL(image).decode()
+                image = parameters
+                text = str(ImageTextInjectorAL(image).decode())
                 
-                with open(image.split(".")[0]+".txt", "w") as f:
-                    f.write(text)
+                #with open(image.split(".")[0]+".txt", "w") as f:
+                #    f.write(text)
+                print(f"{titlePrefix}Decoded text from {image}:\n{infoPrefix}Text: \"{text}\"")
 
             if command != "" and command != "clear":
                 print()
