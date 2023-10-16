@@ -29,3 +29,11 @@ python3 INJXTOR.py
   <img style="position: absolute; top: 50%; left: 50%;" src="https://cdn.discordapp.com/attachments/1135313792696324197/1163519109884022826/Screenshot_2023-10-16_164911.png?ex=653fde9c&is=652d699c&hm=0b1bd74dd2f08e0341111fefb18729744f16682581636ac77ddbab0f315f16ee" width="1000">
   <br>
 </p>
+
+```
+# inject your text into the image
+encode {imageFile} {yourText}
+
+# decode the text already in a photo
+decode {imageFile}
+```
