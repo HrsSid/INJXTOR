@@ -22,3 +22,12 @@ cd INJXTOR
 # Enter the tool's UI
 python3 INJXTOR.py
 ```
+
+# Usage
+<p align=center>
+  <br>
+  <img style="position: absolute; top: 50%; left: 50%;" src="https://cdn.discordapp.com/attachments/1135313792696324197/1163474650924318771/Screenshot_2023-10-16_135233.png?ex=653fb535&is=652d4035&hm=9ac59b7a53a2d15ae2c000cb0171893831fbb6cdb7260cd6e1f4afa588060f4b" width="1000">
+  <br>
+  <span>Inject text into images (BETA)</span>
+  <br>
+</p>
